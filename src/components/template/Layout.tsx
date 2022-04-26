@@ -1,18 +1,30 @@
 import React from 'react';
 import './Layout.css';
-
+import { Link } from "react-router-dom";
 export default function Layout(props:any){
   return (
     <React.StrictMode>
       {/* header */}
-      <header className='flex fl-justify-between'>
+      <header className='flex fl-justify-between '>
         <img src="/assets/Logo.svg" alt="logo" />
-        <button>
-          <img src="/assets/Menu.svg" alt="menu" />
-        </button>
+        <nav className='header-menu flex fl-align-center'>
+          <Link to="/products">Products</Link>
+          <Link to="/challenges">Challenges</Link>
+          <Link to="/resources">Resources</Link>
+          <Link to="/other_links">Other Links</Link>
+        </nav>
+        <section className='header-right'>
+          <div className='flex fl-align-center'>
+            <a href="#">Sign in</a>
+            <button className='btn btn-primary'>Try for free</button>
+          </div>
+          <button>
+            <img src="/assets/Menu.svg" alt="menu" />
+          </button>
+        </section>
       </header>
       {/* content */}
-      <main className='layout_content'>
+      <main className='layout_content flex'>
         {props.content}
       </main>
       {/* footer */}

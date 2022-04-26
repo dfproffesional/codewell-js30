@@ -65,3 +65,8 @@ p{
   color: gray;
   font-size: 1.1em;
 }
+a{
+  text-decoration: none;
+  color: gray;
+  margin: 0 16px;
+}

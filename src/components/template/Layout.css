@@ -4,26 +4,21 @@
 
 header{
   padding: 16px;
+  max-width: 1020px;
+  margin: 0 auto;
 }
-h1{
-  font-size: 2.5em;
+header .header-menu {
+  display: none;
 }
+header .header-right div{
+  display: none;
+}
+
 main.layout_content {
   padding: 16px;
   min-height: calc(80vh - 64px - 150px );
-}
-
-main.layout_content .content_review img{
-  margin-left: 16px;
-}
-main.layout_content .content_description{
-  margin-bottom: 16px;
-}
-main.layout_content .content_description p{
-  line-height: 30px;
-}
-main.layout_content .content_description span{
-  color: #F6B300;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 main.layout_content > button{
@@ -32,6 +27,8 @@ main.layout_content > button{
 
 footer{
   padding: 16px;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 footer p{
   text-align: center;
@@ -40,4 +37,22 @@ footer p{
 footer img{
   margin-bottom: 16px;
   margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .layout_content{
+    align-items: center;
+  }
+  
+}
+@media (min-width: 1024px) {
+  header > section > button{
+    display: none;
+  }
+  header .header-menu {
+    display: flex;
+  }
+  header .header-right div{
+    display: block;
+  }
 }
