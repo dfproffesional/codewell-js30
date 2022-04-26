@@ -1,0 +1,15 @@
+.content_review img{
+  margin-left: 16px;
+}
+.content_description{
+  margin-bottom: 16px;
+}
+.content_description p{
+  line-height: 30px;
+}
+.content_description h1{
+  font-size: 2.5em;
+}
+.content_description span{
+  color: #F6B300;
+}
