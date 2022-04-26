@@ -8,13 +8,20 @@ header{
 h1{
   font-size: 2.5em;
 }
-main{
+main.layout_content {
   padding: 16px;
   min-height: calc(80vh - 64px - 150px );
 }
 
-.layout_content .content_review img{
+main.layout_content .content_review img{
   margin-left: 16px;
+}
+main.layout_content .content_description{
+  margin-bottom: 16px;
+}
+
+main.layout_content > button{
+  margin-bottom: 16px;
 }
 
 footer{

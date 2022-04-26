@@ -11,7 +11,7 @@ export default function Layout(props:any){
         </button>
       </header>
       <main className='layout_content'>
-        <section>
+        <section className='content_description'>
           <h1>
             Ondeck is your remote conference calling tool
           </h1>
@@ -21,7 +21,7 @@ export default function Layout(props:any){
           </p>
         </section>
         
-        <button>Try for free</button>
+        <button className='btn btn-primary'>Try for free</button>
         
         <section className='content_review flex fl-align-center'>
           <p>5.0 Rating based on reviews from:</p>
