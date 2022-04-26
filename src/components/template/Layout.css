@@ -8,6 +8,10 @@ header{
   margin: 0 auto;
 }
 
+header > section > button{
+  display: none;
+}
+
 main.layout_content {
   padding: 16px;
   min-height: calc(80vh - 64px - 150px );
