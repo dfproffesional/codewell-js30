@@ -3,6 +3,7 @@
 }
 .content_description{
   margin-bottom: 16px;
+  margin-right: 16px;
 }
 .content_description p{
   line-height: 30px;
@@ -12,4 +13,22 @@
 }
 .content_description span{
   color: #F6B300;
+}
+button.content_button{
+  margin-bottom: 32px;
+}
+.content_hero img{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .content_hero img{
+    width: 250px;
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .content_hero img{
+    width: 300px;
+  }
 }

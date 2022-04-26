@@ -12,7 +12,7 @@ export default function Layout(props:any){
         </button>
       </header>
       {/* content */}
-      <main className='layout_content'>
+      <main className='layout_content flex'>
         {props.content}
       </main>
       {/* footer */}
