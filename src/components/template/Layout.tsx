@@ -7,13 +7,13 @@ export default function Layout(props:any){
       {/* header */}
       <header className='flex fl-justify-between '>
         <img src="/assets/Logo.svg" alt="logo" />
-        <nav className='flex fl-align-center'>
+        <nav className='header-menu flex fl-align-center'>
           <Link to="/products">Products</Link>
           <Link to="/challenges">Challenges</Link>
           <Link to="/resources">Resources</Link>
           <Link to="/other_links">Other Links</Link>
         </nav>
-        <section>
+        <section className='header-right'>
           <div className='flex fl-align-center'>
             <a href="#">Sign in</a>
             <button className='btn btn-primary'>Try for free</button>

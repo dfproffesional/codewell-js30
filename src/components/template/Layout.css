@@ -7,8 +7,10 @@ header{
   max-width: 1020px;
   margin: 0 auto;
 }
-
-header > section > button{
+header .header-menu {
+  display: none;
+}
+header .header-right div{
   display: none;
 }
 
@@ -40,5 +42,17 @@ footer img{
 @media (min-width: 768px) {
   .layout_content{
     align-items: center;
+  }
+  
+}
+@media (min-width: 1024px) {
+  header > section > button{
+    display: none;
+  }
+  header .header-menu {
+    display: flex;
+  }
+  header .header-right div{
+    display: block;
   }
 }
