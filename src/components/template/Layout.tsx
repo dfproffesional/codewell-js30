@@ -4,33 +4,18 @@ import './Layout.css';
 export default function Layout(props:any){
   return (
     <React.StrictMode>
+      {/* header */}
       <header className='flex fl-justify-between'>
         <img src="/assets/Logo.svg" alt="logo" />
         <button>
           <img src="/assets/Menu.svg" alt="menu" />
         </button>
       </header>
+      {/* content */}
       <main className='layout_content'>
-        <section className='content_description'>
-          <h1>
-            Ondeck is your remote <span>conference calling tool</span>
-          </h1>
-          <p>
-            Ondeck is a service that allows you to create beautiful, online, and encrypted
-            video calls for you and your remote team.
-          </p>
-        </section>
-        
-        <button className='btn btn-primary'>Try for free</button>
-        
-        <section className='content_review flex fl-align-center'>
-          <p>5.0 Rating based on reviews from:</p>
-          <div>
-            <img src="/assets/Capterra Logo.svg" alt="icon" />
-            <img src="/assets/AlternativeTo Logo.svg" alt="icon" />
-          </div>
-        </section>
+        {props.content}
       </main>
+      {/* footer */}
       <footer>
         <p>Trusted by 3+ million people at companies like</p>
         <section className='flex fl-wrap fl-justify-around'>
