@@ -18,6 +18,16 @@ code {
 .flex.fl-justify-between{
   justify-content: space-between;
 }
+.flex.fl-align-center{
+  align-items: center;
+}
+.flex.fl-justify-around{
+  justify-content: space-around;
+}
+.flex.fl-direct-col{
+  flex-direction: column;
+}
+
 button{
   background-color: transparent;
   border: none;

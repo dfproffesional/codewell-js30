@@ -8,6 +8,7 @@ function App() {
   return (
     <React.StrictMode>
       <Layout
+        className="flex"
         h1={<h1>Hi</h1>}
       />
         

@@ -1,7 +1,17 @@
+.Layout{
+  height: 100vh;
+}
+
 header{
   padding: 16px;
 }
-
+h1{
+  font-size: 2.5em;
+}
 main{
   padding: 16px;
+}
+
+.layout_content .content_review img{
+  margin-left: 16px;
 }

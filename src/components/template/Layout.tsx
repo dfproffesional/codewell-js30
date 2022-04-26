@@ -10,7 +10,7 @@ export default function Layout(props:any){
           <img src="/assets/Menu.svg" alt="menu" />
         </button>
       </header>
-      <main>
+      <main className='layout_content'>
         <section>
           <h1>
             Ondeck is your remote conference calling tool
@@ -23,7 +23,7 @@ export default function Layout(props:any){
         
         <button>Try for free</button>
         
-        <section>
+        <section className='content_review flex fl-align-center'>
           <p>5.0 Rating based on reviews from:</p>
           <div>
             <img src="/assets/Capterra Logo.svg" alt="icon" />
@@ -31,6 +31,15 @@ export default function Layout(props:any){
           </div>
         </section>
       </main>
+      <footer>
+        <p>Trusted by 3+ million people at companies like</p>
+        <section>
+          <img src="/assets/Netflix Logo.svg" alt="logo-netflix" />
+          <img src="/assets/Shopify Logo.svg" alt="logo-netflix" />
+          <img src="/assets/Spotify Logo.svg" alt="logo-netflix" />
+          <img src="/assets/Walmart Logo.svg" alt="logo-netflix" />
+        </section>
+      </footer>
     </React.StrictMode>
   )
 }
