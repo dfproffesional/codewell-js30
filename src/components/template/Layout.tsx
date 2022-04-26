@@ -33,7 +33,7 @@ export default function Layout(props:any){
       </main>
       <footer>
         <p>Trusted by 3+ million people at companies like</p>
-        <section>
+        <section className='flex fl-wrap fl-justify-around'>
           <img src="/assets/Netflix Logo.svg" alt="logo-netflix" />
           <img src="/assets/Shopify Logo.svg" alt="logo-netflix" />
           <img src="/assets/Spotify Logo.svg" alt="logo-netflix" />

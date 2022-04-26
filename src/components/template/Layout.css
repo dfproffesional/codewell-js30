@@ -10,8 +10,20 @@ h1{
 }
 main{
   padding: 16px;
+  min-height: calc(80vh - 64px - 150px );
 }
 
 .layout_content .content_review img{
   margin-left: 16px;
+}
+
+footer{
+  padding: 16px;
+}
+footer p{
+  text-align: center;
+  margin-bottom: 32px;
+}
+footer img{
+  margin-bottom: 16px;
 }

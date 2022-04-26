@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+*{
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+}
+
 .flex{
   display: flex;
 }
@@ -26,6 +33,9 @@ code {
 }
 .flex.fl-direct-col{
   flex-direction: column;
+}
+.flex.fl-wrap{
+  flex-wrap: wrap;
 }
 
 button{
