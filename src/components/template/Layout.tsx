@@ -13,7 +13,7 @@ export default function Layout(props:any){
       <main className='layout_content'>
         <section className='content_description'>
           <h1>
-            Ondeck is your remote conference calling tool
+            Ondeck is your remote <span>conference calling tool</span>
           </h1>
           <p>
             Ondeck is a service that allows you to create beautiful, online, and encrypted

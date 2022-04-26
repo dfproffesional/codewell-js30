@@ -19,9 +19,15 @@ main.layout_content .content_review img{
 main.layout_content .content_description{
   margin-bottom: 16px;
 }
+main.layout_content .content_description p{
+  line-height: 30px;
+}
+main.layout_content .content_description span{
+  color: #F6B300;
+}
 
 main.layout_content > button{
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 footer{
@@ -33,4 +39,5 @@ footer p{
 }
 footer img{
   margin-bottom: 16px;
+  margin-right: 16px;
 }
